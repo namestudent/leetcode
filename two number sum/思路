@@ -16,5 +16,5 @@
 
 
 
-第三种：首先创建一个字典，将target-nums[]的值存入字典，若字典中不存在此值,则创建新的键值对，将target-nunms[]的值作为key，value为其下标，若
-target - nums[] 的值在字典中存在，则返回它的key及value。
+第三种：首先创建一个字典，将target-nums[i]的值存入字典，如果此时nums[i]的值不存在于字典中，则创建新的键值对，key为target—nums[i]的值，value为其下标
+若nums[i]的存在于字典中返回其value和现在在字典中的下标位置。
